@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Brand_Snickers', 'Brand_feastables', 'Brand_kitkat', 'Brand_prime', 'Brand_redbull', 'Brand_toblerone', 'Net_wt', 'Nutrition', 'ingredients']
+
+roboflow:
+  workspace: sree-madhav
+  project: assignment-z07s3
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sree-madhav/assignment-z07s3/dataset/dataset

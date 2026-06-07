@@ -1,0 +1,37 @@
+# ==========================================
+# Backend (Python / FastAPI)
+# ==========================================
+
+# virtual environment
+venv/
+env/
+
+# python cache files
+__pycache__/
+*.pyc
+
+# environment variables (never commit your api keys!)
+.env
+
+# temporary image outputs from testing
+detected_*.jpg
+cropped_*.jpg
+result.jpg
+
+# ==========================================
+# Frontend (React / Vite)
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# ==========================================
+# OS / System Files
+# ==========================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
